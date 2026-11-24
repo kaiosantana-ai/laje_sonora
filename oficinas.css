@@ -79,6 +79,8 @@ h1, h2, h3 {
 
 
 .rodape {
+    width: 100%;
+    max-width: none;
     margin-top: 120px;
     background-color: var(--tinta);
     color: var(--concreto);
@@ -213,4 +215,19 @@ h1, h2, h3 {
     margin-top: 10px;
     font-weight: 700;
 }
+html, body {
+    width: 100%;
+    margin: 0;
+}
+
+footer.rodape {
+    display: block;
+    width: 100vw;
+    max-width: none;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    background-color: var(--tinta);
+    box-sizing: border-box;
+}
+
 
