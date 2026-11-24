@@ -45,22 +45,24 @@ h1, h2, h3{
     font-weight: 900;
     text-decoration: none;
 }
-.menu{
+.menu {
     display: flex;
     gap: 36px;
+}
 
-    a{
-        font-weight: 600;
-        text-decoration: none;
-        padding-bottom: 4px;
-        border-bottom: 4px solid transparent;
-    }
-    a:hover{
-        border-bottom-color: var(--tinta);
-    }
-    a.atual{
-        border-bottom-color: var(--fita);
-    }
+.menu a {
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 4px;
+    border-bottom: 4px solid transparent;
+}
+
+.menu a:hover {
+    border-bottom-color: var(--tinta);
+}
+
+.menu a.atual {
+    border-bottom-color: var(--fita);
 }
 
 .cartazes{
@@ -70,7 +72,7 @@ h1, h2, h3{
 }
 
 .cartaz{
-    padding-bottom: 40px;
+    padding: 40px;
 }
 
 .cartaz-principal{
@@ -113,4 +115,10 @@ flex: 2;
 
 .botao:hover{
     background-color: var(--caixa-dagua);
+}
+.card-info{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
